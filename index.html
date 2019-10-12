@@ -12,6 +12,7 @@
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -22,51 +23,52 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <div class="nav">
+  <nav>
     <div class="nav-left">
-      <ul class="nav-bar">
-        <li id="nav-left"><a href="#">About</a></li>
-        <li id="nav-left"><a href="#">Store</a></li>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Store</a></li>
       </ul>
     </div>
 
     <div class="nav-right">
-      <ul class="nav-bar">
-        <li id="nav-right"><a href="#">gmail</a></li>
-        <li id="nav-right"><a href="#">images</a></li>
-        <li id="nav-right"><a href="#">gapps</a></li>
-        <li id="nav-right"><button class="login" type="button">login</button></li>
+      <ul>
+        <li><a href="#">gmail</a></li>
+        <li><a href="#">images</a></li>
+        <li><a href="#"><i class="material-icons">apps</i></a></li>
+        <li><button>login</button></li>
     </ul>
     </div>
-</div>
+  </nav>
 
 <div class="main-container">
-  <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+  <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
   <form>
-    <input type="text">
-    <br>
-    <button>Google Search</button>
-    <button>I'm feeling lucky</button>
+    <input class="search-box" type="text">
   </form>
+  <div class="search-buttons">
+    <button id="g-search">Google Search</button>
+    <button id="f-lucky">I'm feeling lucky</button>
+  </div>
 </div>
 
-<div class="footer">
+<footer>
   <div class="footer-left">
     <ul>
-      <li id="nav-left"><a href="#">advertisement</a></li>
-      <li id="nav-left"><a href="#">business</a></li>
-      <li id="nav-left"><a href="#">how search works</a></li>
+      <li><a href="#">advertisement</a></li>
+      <li><a href="#">business</a></li>
+      <li><a href="#">how search works</a></li>
       </ul>
   </div>
 
   <div class="footer-right">
     <ul>
-      <li id="nav-right"><a href="#">settings</a></li>
-      <li id="nav-right"><a href="#">terms</a></li>
-      <li id="nav-right"><a href="#">privacy</a></li>
+      <li><a href="#">settings</a></li>
+      <li><a href="#">terms</a></li>
+      <li><a href="#">privacy</a></li>
     </ul>
   </div>
-</div>
+</footer>
 
 </body>
 
