@@ -36,7 +36,7 @@ nav {
   justify-content: space-between;
   align-items: left;
   overflow: hidden;
-  background-color: rgb(235, 42, 42);
+  background-color: white;
   padding: 0;
   margin: 0;
   font-size: 13px;
@@ -44,24 +44,24 @@ nav {
 }
 
 .nav-right {
-  background-color: blueviolet;
+  background-color: white;
   display: flex;
   flex-flow: row nowrap;
     
 }
 
 .nav-right li{
-  background-color: violet;
+  background-color: white;
   float: left;
 }
 
 .nav-left {
-  background-color: blueviolet;
+  background-color: white;
   align-content: flex-start;
 }
 
 .nav-left li {
-  background-color: violet;
+  background-color: white;
   float: left;
 }
 
@@ -70,7 +70,7 @@ nav {
   flex-direction: column;
   width: 100%;
   align-items: center;
-  background-color: bisque;
+  background-color: white;
 }
   
 .main-container img {
@@ -93,6 +93,15 @@ input.search-box {
 
 .search-buttons {
   align-content: center;
+}
+
+#g-search, #f-lucky{
+  background-color: #f2f2f2;
+  border: none;
+  color: #5F6368;
+  font-size: 14px;
+  margin: 11px 4px;
+  border-radius: 4px;
 }
 
 footer {
